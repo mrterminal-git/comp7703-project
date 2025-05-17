@@ -66,7 +66,10 @@ After applying SMOTE, the training data is balanced, with 24552 data points in e
 \vspace{20pt}
 
 \textbf{3.3 Data standardization}
+\\
+The data is standardized using the StandardScaler from the \texttt{sklearn} library. The StandardScaler standardizes the data by removing the mean and scaling to unit variance. This is done to ensure that all features have the same scale, and to improve the performance of the models.
 
+\vspace{20pt}
 
 \textbf{4. Principle Component Analysis}
 
@@ -131,7 +134,10 @@ We can confirm this by looking at the accuracy of the K-NN classifier on the PCA
 \end{figure}
 
 
-The accuracy of the K-NN classifier on the PCA-reduced data is shown in Figure \ref{fig:knn_accuracy_pca}. As we can see, despite the dimensionality reduction, the accuracy of the K-NN classifier is still highest at 1 neighbour, and then decreases as the number of neighbours increases. This suggests that the decrease in accuracy as neighbours increase is not solely due to the high dimensionality of the data, but also due to the nature of the K-NN algorithm on this particular dataset. This idea is supported by the fact that the curve for each PCA-reduced data (16 to 2 dimensions) is similar to the curve for the original data. 
+The accuracy of the K-NN classifier on the PCA-reduced data is shown in Figure \ref{fig:knn_accuracy_pca}. 
+The curve for reduced data to 2-dimensions shows the best accuracy occurs with $2^9$ neighbour, which suggests that the points become more "spread-out" in 2-dimensions and the model is able to distinguish between different catgeories better as the number of neighbours increases. 
+\\
+However, despite the dimensionality reduction, the accuracy of the K-NN classifier is still highest at 1 neighbour, and then decreases as the number of neighbours increases. This suggests that the decrease in accuracy as neighbours increase is not solely due to the high dimensionality of the data, but also due to the nature of the K-NN algorithm on this particular dataset. This idea is supported by the fact that the curve for the PCA-reduced data (to 16 dimensions) is similar to the curve for the original data. 
 \\
 Additionally, the accuracy of the K-NN classifier decreases as the number of dimensions decreases. If the curse of dimensionality was a significant problem for this dataset, we would expect the accuracy to increase. This suggests that the curse of dimensionality is not a significant problem for this dataset, and that decreasing the number dimensions is not beneficial to the model, as it loses too much information.
 
@@ -142,6 +148,60 @@ The computational time of the K-NN classifier is also significantly reduced afte
 \vspace{20pt}
 
 \textbf{5.2 K-Fold Cross-validation}
+\\ 
+The best accuracy of the K-NN classifier is achieved with one neighbour, and the accuracy is approximately 86.26\%. However, one neighbour could be overfitting the data, therefore is important to explore different sets of training and testing data, to see if the accuracy is consistent across different sets of data. This is done by using K-Fold Cross-validation, which splits the data into K different sets, and then trains and tests the model on each set. The accuracy of the model is then averaged over all K sets. 
+\\
+We use 10-fold cross-validation, which means that the data is split into 10 different sets, and then the model is trained and tested on each set. Note that the choice of the number of folds was arbitrary, and was chosen to be 10 because it is a common choice in the literature.
+\\
+
+% Insert figure of Accuracy of K-NN classifier with K-Fold Cross-validation here
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/knn_accuracy_kfold.png}
+\caption{Accuracy of K-NN classifier with K-Fold Cross-validation.}
+\label{fig:knn_accuracy_kfold}
+\end{figure}
+
+The accuracy of the K-NN classifier with K-Fold cross-validation is shown in Figure \ref{fig:knn_accuracy_kfold}. With 10-fold cross-validation, the highest average accuracy occurs with one neighbour. Notably, the minimum accuracy across the 10 folds for one neighbour is approximately equal to the maximum accuracy observed for two, four, and eight neighbours. This suggests that one neighbour is indeed the optimal choice for this dataset.
+
+Additionally, the variance in accuracy across folds for one neighbour is comparable to the variance observed for other values of k. If one neighbour were overfitting the data, we would expect to see significantly higher variance across the folds for k=1 compared to other values of k. Since this is not the case, we can conclude that, for this dataset, the K-NN classifier with one neighbour does not appear to overfit, as evidenced by the consistently low variance.
+\\
+
+\textbf{5.3 ROC curve}
+\\
+We use the k=1 K-NN model with the highest accuracy in the 10-fold cross-validation to plot the ROC curve. The ROC curve is a graphical representation of the performance of a binary classifier as the discrimination threshold is varied. It plots the true positive rate (TPR) against the false positive rate (FPR) at various threshold settings. The area under the ROC curve (AUC) is a single scalar value that summarizes the performance of the classifier across all thresholds.
+
+% Insert figure of ROC curve here
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/knn_roc_curve.png}
+\caption{ROC curve for K-NN classifier with k=1.}
+\label{fig:knn_roc_curve}
+\end{figure}
+
+The ROC curve for the K-NN classifier with k=1 is shown in Figure \ref{fig:knn_roc_curve}. The AUC for the K-NN classifier with k=1 is approximately 0.9 for all height categories. This indicates that the K-NN classifier with k=1 is a good classifier, as it has a high true positive rate and a low false positive rate. 
+\\
+The ROC curve itself is not very informative for one-neighbour K-NN, as it can only produce three points. The lack of points is due to the fact that the model outputs "hard" probabilityes (only 0 or 1) for each class, rather than "soft" probabilities, that would be possible for a higher number of neighbours. 
+\\
+
+\textbf{5.4 Confusion matrix}
+\\
+We can also use the same K-NN model to plot the confusion matrix using the validation data that was not used in the training or testing of the model. The confusion matrix is a table that is often used to describe the performance of a classification model on a set of data for which the true values are known. The confusion matrix shows the number of correct and incorrect predictions made by the model, broken down by class.
+
+% Innsert figure of Confusion matrix here
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/knn_confusion_matrix.png}
+\caption{Confusion matrix for K-NN classifier with k=1.}
+\label{fig:knn_confusion_matrix}
+\end{figure}
+
+The confusion matrix shows that the diagonal elements to be the largest, which indicates that the K-NN classifier with k=1 is able to correctly classify the majority of the data points. The off-diagonal elements are much smaller, which indicates that the K-NN classifier with k=1 is not making many incorrect predictions. This is a good sign, as it indicates that the K-NN classifier with k=1 is a good classifier for this dataset.
+\\
+
+\textbf{5.5 Precision, Recall, and F1 score}
+\\
+
 
 \textbf{6. Random Forest}
 
