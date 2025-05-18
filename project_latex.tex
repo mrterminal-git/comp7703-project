@@ -254,8 +254,8 @@ medium     & 0.90      & 0.88   & 0.89     \\
 \end{tabular}
 \end{table}
 
-All three classes have a high precision, recall, and F1 score, which indicates that the K-NN classifier with k=1 is able to correctly classify the majority of the data points in each category. Additionally, the score are relatively balanced across all classes, which suggests that the K-NN classifier with k=1 s not biased towards any particular class, despite the imbalanced validation data.
-\\
+All three classes have a high precision, recall, and F1 score, which indicates that the K-NN classifier with k=1 is able to correctly classify the majority of the data points in each category. Additionally, the score are relatively balanced across all classes, which suggests that the K-NN classifier with k=1 is not biased towards any particular class, despite the imbalanced validation data.
+
 
 \vspace{20pt}
 
@@ -276,8 +276,8 @@ The Random Forest classifier was trained on the balanced and scaled training dat
 % Insert figure of Random Forest accuracy here
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/rf_accuracy.png}
-\caption{Accuracy of Random Forest classifier against the test data.}
+\includegraphics[width=1.0\textwidth]{figures/rf_accuracy.png}
+\caption{Accuracy of Random Forest classifier against the train and test data.}
 \label{fig:rf_accuracy}
 \end{figure}
 
@@ -295,20 +295,89 @@ A big drawback with increasing the number of trees and the maximum depth of the 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/rf_accuracy_pca.png}
-\caption{Accuracy of Random Forest classifier on PCA-reduced data.}
+\caption{Accuracy of Random Forest classifier on PCA-reduced data. The model parameters were set to 200 trees and a maximum depth of 30.}
 \label{fig:rf_accuracy_pca}
 \end{figure}
 
-When the data is reduced to 16-dimensions using PCA, the computational time of the Random Forest classifier significantly decreases. However, the accuracy of the Random Forest classifier slightly decreases as well. This is expected, as the PCA-reduced data loses some information content, and hence the accuracy of the Random Forest classifier decreases. However, the decrease in accuracy is not significant, and the computational time is significantly reduced. This is a strong argument for using PCA to reduce computational cost, without significantly sacrificing accuracy. However, since the time taken to train the Random Forest classifier on the original data is not unreasonable, and the accuracy is slightly higher, we will use the original data for the rest of the analysis.
+When the data is reduced to 16-dimensions using PCA, the computational time of the Random Forest classifier significantly decreases. However, the accuracy of the Random Forest classifier slightly decreases as well. This is expected, as the PCA-reduced data loses some information content, and hence the accuracy of the Random Forest classifier decreases. However, the decrease in accuracy is not significant, and the computational time is significantly reduced. This is a strong argument for using PCA to reduce computational cost, without significantly sacrificing accuracy. However, since the time taken to train the Random Forest classifier on the original data is within reason, and the accuracy is slightly higher, we will use the original data for the rest of the analysis.
 
 \vspace{20pt}
 
 \textbf{6.2 K-Fold Cross-validation}
 \\
 Increasing the number of trees does not increase risk of overfitting, however, increasing the maximum depth of the trees does increase the risk of overfitting. We can take advantage of this by deciding the best number of trees, since we are not limited by the number of trees with regards to overfitting. The accuracy of the Random Forest classifier only marginally increases after 100 trees, and the computational time increases exponentially after 100 trees. Therefore, we will use 100 trees and vary the maximum depth of the trees to investigate the effect of overfitting on the accuracy of the Random Forest classifier.
+
+% Insert figure of Random Forest accuracy with K-Fold Cross-validation here
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/rf_accuracy_kfold.png}
+\caption{Accuracy of Random Forest classifier with K-Fold Cross-validation. Each box and whisker plots shows the spread of the accuracy against the test data across the 10 folds. The red line shows the mean accuracy across the 10 folds.}
+\label{fig:rf_accuracy_kfold}
+\end{figure}
+
+The distribution of the accuracy shows a low variance across all maximum depths, which suggests that the Random Forest classifier is not overfitting the data. The maximum depth of None (unlimited) acheived the highest mean accuracy, while still maintaining a low variance, therefore we will use this model as the standard model for the Random Forest classifier. 
+\\
+Note that the mean of the accuracies for maximum depths larger than 20 are very similar. Additionally, the mean accuracy for 40 is within the IQR of the maximum depth of None. It is fair to assume the true mean across the maximum depths larger than 20 are insignficantly different, and so the choice of maximum depth greater than 20 is arbitrary, in terms of accuracy. Despite the fact that the computational time is significantly increased as the maximum depth increases, we will use the maximum depth of None, because the time taken is within reason, and the accuracy, for this dataset, is the highest.
+
+\vspace{20pt}
+
+\textbf{6.3 ROC curve}
 \\
 
+% Insert figure of RF ROC curve here
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/rf_roc_curve.png}
+\caption{ROC curve for Random Forest classifier with 100 trees and maximum depth of None.}
+\label{fig:rf_roc_curve}
+\end{figure}
+
+The ROC curve for the Random Forest classifier with 100 trees and unlimited depth is shown in Figure \ref{fig:rf_roc_curve}. The area under the curve (AUC) is approximately 0.96 for all height categories, indicating strong discriminative performance with a high true positive rate and a low false positive rate across classes. Notably, the Random Forest achieves a higher AUC than the K-NN classifier with (k=1), suggesting superior classification performance on this dataset. 
+\\
+This improvement is consistent with the strengths of ensemble methods like Random Forest, which aggregate the predictions of multiple decision trees to reduce variance and improve generalization. Additionally, Random Forests are less prone to overfitting compared to single decision trees, particularly when a sufficient number of trees are used.
+
+\vspace{20pt}
+
+\textbf{6.4 Confusion matrix}
+\\
+% Insert figure of RF confusion matrix here
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{figures/rf_confusion_matrix.png}
+\caption{Confusion matrix for Random Forest classifier with 100 trees and maximum depth of None. (Left) Confusion matrix against the raw validation set. (Right) Confusion matrix normalized by row.}
+\label{fig:rf_confusion_matrix}
+\end{figure}
+
+Similar to the K-NN classifier, the diagonal elements are the largest, which indicates that the Random Forest classifier with 100 trees and unlimited depth is able to correctly classify the majority of the data points. 
+\\
+The diagonal elements for the Random Forest classifier are slightly lower than the K-NN classifier, which indicates that the chosen Random Forest classifier is only slightly less accurate than the K-NN classifier.
+
+\vspace{20pt}
+
+\textbf{6.5 Precision, Recall, and F1 score}
+\\
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} \\
+\hline
+high   & 0.85 & 0.85 & 0.85 & \\
+low    & 0.83 & 0.86 & 0.85 & \\
+medium & 0.89 & 0.87 & 0.88 & \\
+\hline
+\end{tabular}
+\caption{Precision, recall, and F1-score for each class on the validation set.}
+\label{tab:rf_classification_report}
+\end{table}
+
+The precision, recall, and F1 score are very similar to that of the K-NN classifier and are all high for all three classes, which indicates that the Random Forest classifier with 100 trees and unlimited depth is able to correctly classify the majority of the data points in each category. Additionally, the scores are relatively balanced across all classes, which suggests that the Random Forest classifier with 100 trees and unlimited depth is not biased towards any particular class.
+
+\vspace{20pt}
 
 \textbf{7. Deep Neural Networks}
+\\
+\textbf{7.1 Training}
 
 \end{document}

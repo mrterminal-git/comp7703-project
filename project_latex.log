@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.14)  18 MAY 2025 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.14)  18 MAY 2025 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -934,18 +934,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--237
 
 
 [8 <./figures/knn_roc_curve.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
-
- []
-
-
 
 [9 <./figures/knn_confusion_matrix.png>]
-<figures/rf_accuracy.png, id=55, 469.755pt x 354.8457pt>
+<figures/rf_accuracy.png, id=55, 1111.5126pt x 354.123pt>
 File: figures/rf_accuracy.png Graphic file (type png)
 <use figures/rf_accuracy.png>
 Package pdftex.def Info: figures/rf_accuracy.png  used on input line 279.
-(pdftex.def)             Requested size: 400.38872pt x 302.44867pt.
+(pdftex.def)             Requested size: 500.484pt x 159.45113pt.
 
 
 [10 <./figures/rf_accuracy.png>]
@@ -954,33 +949,63 @@ File: figures/rf_accuracy_pca.png Graphic file (type png)
 <use figures/rf_accuracy_pca.png>
 Package pdftex.def Info: figures/rf_accuracy_pca.png  used on input line 297.
 (pdftex.def)             Requested size: 450.43253pt x 286.86452pt.
+<figures/rf_accuracy_kfold.png, id=61, 505.89pt x 339.669pt>
+File: figures/rf_accuracy_kfold.png Graphic file (type png)
+<use figures/rf_accuracy_kfold.png>
+Package pdftex.def Info: figures/rf_accuracy_kfold.png  used on input line 313.
+(pdftex.def)             Requested size: 400.38872pt x 268.8383pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--310
+
+[11 <./figures/rf_accuracy_pca.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+
+ []
+
+<figures/rf_roc_curve.png, id=66, 570.2103pt x 426.393pt>
+File: figures/rf_roc_curve.png Graphic file (type png)
+<use figures/rf_roc_curve.png>
+Package pdftex.def Info: figures/rf_roc_curve.png  used on input line 330.
+(pdftex.def)             Requested size: 400.38872pt x 299.40996pt.
+
+
+[12 <./figures/rf_accuracy_kfold.png>]
+<figures/rf_confusion_matrix.png, id=71, 844.8363pt x 360.6273pt>
+File: figures/rf_confusion_matrix.png Graphic file (type png)
+<use figures/rf_confusion_matrix.png>
+Package pdftex.def Info: figures/rf_confusion_matrix.png  used on input line 346.
+(pdftex.def)             Requested size: 500.484pt x 213.6377pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--349
 
  []
 
 
 
-[11 <./figures/rf_accuracy_pca.png>]
+[13 <./figures/rf_roc_curve.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 
-[12] (project_latex.aux)
+ []
+
+
+
+[14 <./figures/rf_confusion_matrix.png>] (project_latex.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23393 strings out of 473523
- 481123 string characters out of 5714146
- 875852 words of memory out of 5000000
- 46183 multiletter control sequences out of 15000+600000
+ 23418 strings out of 473523
+ 481951 string characters out of 5714146
+ 875949 words of memory out of 5000000
+ 46208 multiletter control sequences out of 15000+600000
  590679 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  121i,8n,124p,962b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on project_latex.pdf (12 pages, 589593 bytes).
+Output written on project_latex.pdf (14 pages, 719434 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

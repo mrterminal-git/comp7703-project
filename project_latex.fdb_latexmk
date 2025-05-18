@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747540299.82306 "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" "project_latex.pdf" "project_latex" 1747540301.46587 0
+["pdflatex"] 1747560449.37123 "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" "project_latex.pdf" "project_latex" 1747560451.33732 0
   "C:/Users/Volter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747471722 82560 ef239c2cb0a12117bb5525d1036b4375 ""
   "C:/Users/Volter/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1743742663 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Volter/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1743742663 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -182,7 +182,7 @@
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977342760 310 4b5d6fe830337242ef847b3bff48ba21 ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" 1747540299 23490 a987c235d4dff4b27ba9c58d9e06833b ""
+  "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" 1747560450 28046 e071807551e79644b6e91730029641c1 ""
   "figures/correlation_matrix.png" 1747539010 81416 ce668e2e999a29b12685b7c8bd51f90c ""
   "figures/cum_var_scree.png" 1747358911 35381 4492174f576912d3eab1ac03b518a94f ""
   "figures/data_distribution.png" 1747538569 128112 d2b0c235ee5f1449f5283c7d1e0b7e43 ""
@@ -191,11 +191,14 @@
   "figures/knn_accuracy_pca.png" 1747468729 149661 baf6570660535d5e79bab11f97962646 ""
   "figures/knn_confusion_matrix.png" 1747470907 50373 b085ae31cfaa6f9586a2209c6dba7ab9 ""
   "figures/knn_roc_curve.png" 1747468922 50777 517ad11eb54100ae5cd125f1e4e643b9 ""
-  "figures/rf_accuracy.png" 1747534983 56718 8408bae337c4efdbd51592ef6607db28 ""
+  "figures/rf_accuracy.png" 1747546351 75917 88e45025c3573f4c64c03cc6dd853328 ""
+  "figures/rf_accuracy_kfold.png" 1747551360 26007 d07cf33dfa9619025f13e5789240667a ""
   "figures/rf_accuracy_pca.png" 1747536515 41838 b482a772fea779d725cf42f998f4d4f1 ""
+  "figures/rf_confusion_matrix.png" 1747558029 50507 034a21d62cd5841c976c74b297a7c3ad ""
+  "figures/rf_roc_curve.png" 1747557828 55959 fe76137dc96dd5fb775c1a1720aee12c ""
   "preamble.tex" 1747358911 6046 21ea3506a74ed51c196996e1713e79ea ""
-  "project_latex.aux" 1747540301 2624 54cdc6f45f144193184c244ed8aacacc "pdflatex"
-  "project_latex.tex" 1747540299 23490 a987c235d4dff4b27ba9c58d9e06833b ""
+  "project_latex.aux" 1747560451 3918 48a563915d78d49160f4b2317f7dcfd6 "pdflatex"
+  "project_latex.tex" 1747560450 28046 e071807551e79644b6e91730029641c1 ""
   (generated)
   "project_latex.aux"
   "project_latex.log"
