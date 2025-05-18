@@ -378,6 +378,28 @@ The precision, recall, and F1 score are very similar to that of the K-NN classif
 
 \textbf{7. Deep Neural Networks}
 \\
+The Deep Neural Network (DNN) is a powerful machine learning algorithm that can be used for both classification and regression tasks. The DNN algorithm works by using multiple layers of neurons to learn complex decision boundaries. For this section, we will explore two-hidden layer DNNs, which are a type of feedforward neural network. The model is trained using the Cross Entropy loss function, with a L2 regularization term to prevent overfitting. The model is trained using the Adam optimizer, which is a popular optimization algorithm for training neural networks. The model is trained on the scaled training data, and then tested on the testing data.
+
+\vspace{20pt}
+
 \textbf{7.1 Training}
+\\
+Initial assessment of the DNN were performed using a 128 nodes in each hidden layers. It was found that the DNN can acheive a accuracy on-par with the previous models when trained using a batch size of 16, learning rate of 0.001, and 100 epochs. However, it is unclear if the model is overfitting, and so we will use 5-fold cross-validation to investigate the effect of the different hidden layer sizes on the accuracy of the DNN.
+
+\textbf{7.1.1 Effect of hidden layer sizes}
+
+
+% Insert Figure of DNN training here with 5-fold cross-validation
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/dnn_crossval.png}
+\caption{Different hidden layer sizes (h1-h2) with 5-fold cross-validation. Each box and whisker plots shows the spread of the accuracy against the test data across the 5 folds. The red line shows the mean accuracy across the 5 folds.}
+\label{fig:dnn_training}
+\end{figure}
+
+There appears to be a trend for increasing the size of the hiddens layers to increase the accuracy of the DNN. Notably, the biggest increase in accuracies occurs when the second hidden layer is increased, for the same size of the first hidden layer. This suggests that the second hidden layer is more important than the first hidden layer, and that increasing the size of the second hidden layer will increase the accuracy of the DNN.
+\\
+The DNN with 192-192 hidden layers has the higest mean accuracy, and has a low variance, that is comparable to the other models. This suggest that the DNN with 192-192 hidden layers is a good choice for this dataset, and that the DNN is not overfitting the data, or at least not overfitting the data more than the other models.
+
 
 \end{document}

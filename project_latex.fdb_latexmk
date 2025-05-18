@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747560449.37123 "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" "project_latex.pdf" "project_latex" 1747560451.33732 0
+["pdflatex"] 1747607918.2791 "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" "project_latex.pdf" "project_latex" 1747607920.01302 0
   "C:/Users/Volter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747471722 82560 ef239c2cb0a12117bb5525d1036b4375 ""
   "C:/Users/Volter/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1743742663 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Volter/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1743742663 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -27,6 +27,7 @@
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/txfonts/txsyb.tfm" 977342760 988 098ca7e8cc5647b9ac21b82dbdce1f01 ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/txfonts/txsyc.tfm" 977342760 1084 75e807e9e71f7a312e4e1187dce5e93b ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb" 977342760 14606 238072bd1ce11e3dff8451a5a2608194 ""
+  "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb" 977342760 6330 bdd610a36762742dd8a518bf9f97b968 ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb" 977342760 6339 e2b78706efdc360ee6aec9b6e20211a7 ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb" 977342760 26301 f08b3c26ea42c3177a262c2ac37d6a91 ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136817348 44729 fea0975e20ec51c992338362f05f1146 ""
@@ -182,10 +183,11 @@
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977342760 310 4b5d6fe830337242ef847b3bff48ba21 ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/Volter/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" 1747560450 28046 e071807551e79644b6e91730029641c1 ""
+  "c:/Users/Volter/Documents/GITHUB REPOSITORIES/comp7703-project/project_latex.tex" 1747607917 30423 d2ffcc5fbe29aeabc0cde3f4af2cda67 ""
   "figures/correlation_matrix.png" 1747539010 81416 ce668e2e999a29b12685b7c8bd51f90c ""
   "figures/cum_var_scree.png" 1747358911 35381 4492174f576912d3eab1ac03b518a94f ""
   "figures/data_distribution.png" 1747538569 128112 d2b0c235ee5f1449f5283c7d1e0b7e43 ""
+  "figures/dnn_crossval.png" 1747607703 31350 002ca36b24ae54ac2e97c0b951516276 ""
   "figures/knn_accuracy.png" 1747537776 41367 dc369109a3c0573edafb0321d5ce0481 ""
   "figures/knn_accuracy_kfold.png" 1747468922 23993 3e44f98fd2af96ab2b86be058a7e1dc4 ""
   "figures/knn_accuracy_pca.png" 1747468729 149661 baf6570660535d5e79bab11f97962646 ""
@@ -197,8 +199,8 @@
   "figures/rf_confusion_matrix.png" 1747558029 50507 034a21d62cd5841c976c74b297a7c3ad ""
   "figures/rf_roc_curve.png" 1747557828 55959 fe76137dc96dd5fb775c1a1720aee12c ""
   "preamble.tex" 1747358911 6046 21ea3506a74ed51c196996e1713e79ea ""
-  "project_latex.aux" 1747560451 3918 48a563915d78d49160f4b2317f7dcfd6 "pdflatex"
-  "project_latex.tex" 1747560450 28046 e071807551e79644b6e91730029641c1 ""
+  "project_latex.aux" 1747607919 4301 2ef2b932ab37df90a85e3e5b75759c9f "pdflatex"
+  "project_latex.tex" 1747607917 30423 d2ffcc5fbe29aeabc0cde3f4af2cda67 ""
   (generated)
   "project_latex.aux"
   "project_latex.log"
