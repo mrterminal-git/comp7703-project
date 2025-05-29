@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.14)  16 MAY 2025 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.14)  19 MAY 2025 08:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,47 +691,66 @@ LaTeX Info: Redefining \\ on input line 3187.
 \FV@LineIndentBox=\box135
 \c@FV@BreakBufferDepth=\count359
 \FV@LineWidth=\dimen298
+) (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen299
+\lightrulewidth=\dimen300
+\cmidrulewidth=\dimen301
+\belowrulesep=\dimen302
+\belowbottomsep=\dimen303
+\aboverulesep=\dimen304
+\abovetopsep=\dimen305
+\cmidrulesep=\dimen306
+\cmidrulekern=\dimen307
+\defaultaddspace=\dimen308
+\@cmidla=\count360
+\@cmidlb=\count361
+\@aboverulesep=\dimen309
+\@belowrulesep=\dimen310
+\@thisruleclass=\count362
+\@lastruleclass=\count363
+\@thisrulewidth=\dimen311
 )
-LaTeX Font Info:    Trying to load font information for T1+txr on input line 11.
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 20.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 ) (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
+\l__color_backend_stack_int=\count364
 \l__pdf_internal_box=\box136
 ) (project_latex.aux)
 \openout1 = `project_latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 11.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 11.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 20.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 20.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 11.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 11.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 20.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 11.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 11.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 20.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 11.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 11.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 20.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -769,16 +788,16 @@ LaTeX Font Info:    ... okay on input line 11.
 
 (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen299
+\scratchcounter=\count365
+\scratchdimen=\dimen312
 \scratchbox=\box137
-\nofMPsegments=\count362
-\nofMParguments=\count363
+\nofMPsegments=\count366
+\nofMParguments=\count367
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen300
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen313
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
 \everyMPtoPDFconversion=\toks46
 ) (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -786,18 +805,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count367
+\c@lstlisting=\count371
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 14.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 20.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 30.
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 38.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 39.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 47.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 48.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 57.
  (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
@@ -805,54 +824,196 @@ File: t1txtt.fd 2000/12/15 v3.1
 [1
 
 {C:/Users/Volter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-<figures/cum_var_scree.png, id=13, 614.295pt x 395.3169pt>
+<figures/data_distribution.png, id=13, 1292.9103pt x 853.5087pt>
+File: figures/data_distribution.png Graphic file (type png)
+<use figures/data_distribution.png>
+Package pdftex.def Info: figures/data_distribution.png  used on input line 84.
+(pdftex.def)             Requested size: 500.484pt x 330.37956pt.
+
+
+[2 <./figures/data_distribution.png>]
+<figures/cum_var_scree.png, id=19, 614.295pt x 395.3169pt>
 File: figures/cum_var_scree.png Graphic file (type png)
 <use figures/cum_var_scree.png>
-Package pdftex.def Info: figures/cum_var_scree.png  used on input line 78.
+Package pdftex.def Info: figures/cum_var_scree.png  used on input line 99.
 (pdftex.def)             Requested size: 400.38872pt x 257.6647pt.
+<figures/correlation_matrix.png, id=20, 701.7417pt x 643.9257pt>
+File: figures/correlation_matrix.png Graphic file (type png)
+<use figures/correlation_matrix.png>
+Package pdftex.def Info: figures/correlation_matrix.png  used on input line 113.
+(pdftex.def)             Requested size: 400.38872pt x 367.40501pt.
 
 
-[2 <./figures/cum_var_scree.png>]
-<figures/knn_accuracy.png, id=19, 505.89pt x 343.2825pt>
+[3 <./figures/cum_var_scree.png>]
+
+[4 <./figures/correlation_matrix.png>]
+<figures/knn_accuracy.png, id=29, 499.3857pt x 343.2825pt>
 File: figures/knn_accuracy.png Graphic file (type png)
 <use figures/knn_accuracy.png>
-Package pdftex.def Info: figures/knn_accuracy.png  used on input line 113.
-(pdftex.def)             Requested size: 400.38872pt x 271.69829pt.
+Package pdftex.def Info: figures/knn_accuracy.png  used on input line 148.
+(pdftex.def)             Requested size: 400.38872pt x 275.23398pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+
+ []
+
+<figures/knn_accuracy_pca.png, id=30, 859.2903pt x 570.933pt>
+File: figures/knn_accuracy_pca.png Graphic file (type png)
+<use figures/knn_accuracy_pca.png>
+Package pdftex.def Info: figures/knn_accuracy_pca.png  used on input line 163.
+(pdftex.def)             Requested size: 450.43253pt x 299.27388pt.
+
+
+[5 <./figures/knn_accuracy.png>]
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 170.
+ (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 170.
+ (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 170.
+ (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 170.
+ (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 170.
+ (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 170.
+ (C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
 
  []
 
 
 
-[3 <./figures/knn_accuracy.png>]
-<figures/knn_accuracy_pca.png, id=24, 859.2903pt x 570.933pt>
-File: figures/knn_accuracy_pca.png Graphic file (type png)
-<use figures/knn_accuracy_pca.png>
-Package pdftex.def Info: figures/knn_accuracy_pca.png  used on input line 128.
-(pdftex.def)             Requested size: 450.43253pt x 299.27388pt.
+[6 <./figures/knn_accuracy_pca.png>]
+<figures/knn_accuracy_kfold.png, id=39, 505.89pt x 343.2825pt>
+File: figures/knn_accuracy_kfold.png Graphic file (type png)
+<use figures/knn_accuracy_kfold.png>
+Package pdftex.def Info: figures/knn_accuracy_kfold.png  used on input line 192.
+(pdftex.def)             Requested size: 400.38872pt x 271.69829pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+
+ []
+
+<figures/knn_roc_curve.png, id=40, 570.2103pt x 426.393pt>
+File: figures/knn_roc_curve.png Graphic file (type png)
+<use figures/knn_roc_curve.png>
+Package pdftex.def Info: figures/knn_roc_curve.png  used on input line 209.
+(pdftex.def)             Requested size: 400.38872pt x 299.40996pt.
 
 
-[4 <./figures/knn_accuracy_pca.png>]
+[7 <./figures/knn_accuracy_kfold.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 214--218
 
-[5] (project_latex.aux)
+ []
+
+<figures/knn_confusion_matrix.png, id=46, 844.8363pt x 360.6273pt>
+File: figures/knn_confusion_matrix.png Graphic file (type png)
+<use figures/knn_confusion_matrix.png>
+Package pdftex.def Info: figures/knn_confusion_matrix.png  used on input line 226.
+(pdftex.def)             Requested size: 500.484pt x 213.6377pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--237
+
+ []
+
+
+
+[8 <./figures/knn_roc_curve.png>]
+
+[9 <./figures/knn_confusion_matrix.png>]
+<figures/rf_accuracy.png, id=55, 1111.5126pt x 354.123pt>
+File: figures/rf_accuracy.png Graphic file (type png)
+<use figures/rf_accuracy.png>
+Package pdftex.def Info: figures/rf_accuracy.png  used on input line 279.
+(pdftex.def)             Requested size: 500.484pt x 159.45113pt.
+
+
+[10 <./figures/rf_accuracy.png>]
+<figures/rf_accuracy_pca.png, id=60, 533.3526pt x 339.669pt>
+File: figures/rf_accuracy_pca.png Graphic file (type png)
+<use figures/rf_accuracy_pca.png>
+Package pdftex.def Info: figures/rf_accuracy_pca.png  used on input line 297.
+(pdftex.def)             Requested size: 450.43253pt x 286.86452pt.
+<figures/rf_accuracy_kfold.png, id=61, 505.89pt x 339.669pt>
+File: figures/rf_accuracy_kfold.png Graphic file (type png)
+<use figures/rf_accuracy_kfold.png>
+Package pdftex.def Info: figures/rf_accuracy_kfold.png  used on input line 313.
+(pdftex.def)             Requested size: 400.38872pt x 268.8383pt.
+
+
+[11 <./figures/rf_accuracy_pca.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+
+ []
+
+<figures/rf_roc_curve.png, id=66, 570.2103pt x 426.393pt>
+File: figures/rf_roc_curve.png Graphic file (type png)
+<use figures/rf_roc_curve.png>
+Package pdftex.def Info: figures/rf_roc_curve.png  used on input line 330.
+(pdftex.def)             Requested size: 400.38872pt x 299.40996pt.
+
+
+[12 <./figures/rf_accuracy_kfold.png>]
+<figures/rf_confusion_matrix.png, id=71, 844.8363pt x 360.6273pt>
+File: figures/rf_confusion_matrix.png Graphic file (type png)
+<use figures/rf_confusion_matrix.png>
+Package pdftex.def Info: figures/rf_confusion_matrix.png  used on input line 346.
+(pdftex.def)             Requested size: 500.484pt x 213.6377pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--349
+
+ []
+
+
+
+[13 <./figures/rf_roc_curve.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
+
+ []
+
+
+
+[14 <./figures/rf_confusion_matrix.png>]
+<figures/dnn_crossval.png, id=81, 623.6901pt x 395.3169pt>
+File: figures/dnn_crossval.png Graphic file (type png)
+<use figures/dnn_crossval.png>
+Package pdftex.def Info: figures/dnn_crossval.png  used on input line 395.
+(pdftex.def)             Requested size: 400.38872pt x 253.78008pt.
+
+
+[15 <./figures/dnn_crossval.png>] (project_latex.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23120 strings out of 473523
- 475491 string characters out of 5714146
- 874832 words of memory out of 5000000
- 45946 multiletter control sequences out of 15000+600000
- 578942 words of font info for 59 fonts, out of 8000000 for 9000
+ 23426 strings out of 473523
+ 482185 string characters out of 5714146
+ 875974 words of memory out of 5000000
+ 46216 multiletter control sequences out of 15000+600000
+ 590679 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,6n,124p,962b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on project_latex.pdf (5 pages, 210957 bytes).
+ 121i,8n,124p,962b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Volter/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on project_latex.pdf (15 pages, 747470 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
