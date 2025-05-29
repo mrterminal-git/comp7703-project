@@ -276,7 +276,6 @@ INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1x
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xb.tfm
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xr.tfm
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xb.tfm
-INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xb.tfm
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex\latex\txfonts\ts1txr.fd
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex\latex\txfonts\ts1txr.fd
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\tex\latex\txfonts\ts1txr.fd
@@ -300,9 +299,6 @@ INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtx
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\vf\public\txfonts\t1xr.vf
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxptmr.tfm
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxr.tfm
-INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\vf\public\txfonts\t1xb.vf
-INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxptmb.tfm
-INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxb.tfm
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\vf\public\txfonts\t1xr.vf
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxptmr.tfm
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxr.tfm
@@ -426,6 +422,7 @@ INPUT .\figures\rf_accuracy.png
 INPUT .\figures\rf_accuracy.png
 INPUT .\figures\rf_accuracy.png
 INPUT .\figures\rf_accuracy.png
+INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xb.tfm
 INPUT .\figures\rf_accuracy_pca.png
 INPUT .\figures\rf_accuracy_pca.png
 INPUT .\figures\rf_accuracy_pca.png
@@ -433,6 +430,9 @@ INPUT .\figures\rf_accuracy_pca.png
 INPUT .\figures\rf_accuracy_pca.png
 INPUT .\figures\rf_accuracy_pca.png
 INPUT .\figures\rf_accuracy_pca.png
+INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\vf\public\txfonts\t1xb.vf
+INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxptmb.tfm
+INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxb.tfm
 INPUT .\figures\rf_accuracy_kfold.png
 INPUT .\figures\rf_accuracy_kfold.png
 INPUT .\figures\rf_accuracy_kfold.png
@@ -461,6 +461,13 @@ INPUT .\figures\dnn_crossval.png
 INPUT .\figures\dnn_crossval.png
 INPUT .\figures\dnn_crossval.png
 INPUT .\figures\dnn_crossval.png
+INPUT .\figures\dnn_train_test_curve.png
+INPUT .\figures\dnn_train_test_curve.png
+INPUT .\figures\dnn_train_test_curve.png
+INPUT .\figures\dnn_train_test_curve.png
+INPUT .\figures\dnn_train_test_curve.png
+INPUT .\figures\dnn_train_test_curve.png
+INPUT .\figures\dnn_train_test_curve.png
 INPUT project_latex.aux
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\rtcxr.pfb
 INPUT C:\Users\Volter\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\rtcxr.pfb

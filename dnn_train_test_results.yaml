@@ -1,0 +1,138 @@
+Epoch 1, Loss: 0.6191, Train Acc: 0.7600, Val Acc: 0.7521, Learning Rate: 0.00100
+Epoch 2, Loss: 0.9444, Train Acc: 0.8170, Val Acc: 0.8024, Learning Rate: 0.00100
+Epoch 3, Loss: 0.2562, Train Acc: 0.8336, Val Acc: 0.8124, Learning Rate: 0.00100
+Epoch 4, Loss: 0.3092, Train Acc: 0.8556, Val Acc: 0.8285, Learning Rate: 0.00100
+Epoch 5, Loss: 0.3354, Train Acc: 0.8727, Val Acc: 0.8451, Learning Rate: 0.00100
+Epoch 6, Loss: 0.1273, Train Acc: 0.8803, Val Acc: 0.8454, Learning Rate: 0.00100
+Epoch 7, Loss: 0.1833, Train Acc: 0.8859, Val Acc: 0.8511, Learning Rate: 0.00100
+Epoch 8, Loss: 0.1260, Train Acc: 0.8905, Val Acc: 0.8502, Learning Rate: 0.00100
+Epoch 9, Loss: 0.2389, Train Acc: 0.9055, Val Acc: 0.8657, Learning Rate: 0.00100
+Epoch 10, Loss: 0.0042, Train Acc: 0.8985, Val Acc: 0.8486, Learning Rate: 0.00100
+Epoch 11, Loss: 0.4449, Train Acc: 0.9073, Val Acc: 0.8577, Learning Rate: 0.00100
+Epoch 12, Loss: 0.0438, Train Acc: 0.9111, Val Acc: 0.8606, Learning Rate: 0.00100
+Epoch 13, Loss: 0.1651, Train Acc: 0.9145, Val Acc: 0.8660, Learning Rate: 0.00100
+Epoch 14, Loss: 0.8629, Train Acc: 0.9203, Val Acc: 0.8667, Learning Rate: 0.00100
+Epoch 15, Loss: 0.0580, Train Acc: 0.9238, Val Acc: 0.8723, Learning Rate: 0.00100
+Epoch 16, Loss: 0.2835, Train Acc: 0.9299, Val Acc: 0.8747, Learning Rate: 0.00100
+Epoch 17, Loss: 0.4282, Train Acc: 0.9328, Val Acc: 0.8745, Learning Rate: 0.00100
+Epoch 18, Loss: 0.4373, Train Acc: 0.9329, Val Acc: 0.8721, Learning Rate: 0.00100
+Epoch 19, Loss: 0.0438, Train Acc: 0.9377, Val Acc: 0.8712, Learning Rate: 0.00100
+Epoch 20, Loss: 0.2442, Train Acc: 0.9380, Val Acc: 0.8754, Learning Rate: 0.00100
+Invalid input. Keeping previous learning rate.
+Epoch 21, Loss: 0.0973, Train Acc: 0.9375, Val Acc: 0.8727, Learning Rate: 0.00100
+Epoch 22, Loss: 0.0480, Train Acc: 0.9420, Val Acc: 0.8742, Learning Rate: 0.00100
+Epoch 23, Loss: 0.1088, Train Acc: 0.9426, Val Acc: 0.8777, Learning Rate: 0.00100
+Epoch 24, Loss: 0.3980, Train Acc: 0.9450, Val Acc: 0.8788, Learning Rate: 0.00100
+Epoch 25, Loss: 0.4492, Train Acc: 0.9420, Val Acc: 0.8730, Learning Rate: 0.00100
+Epoch 26, Loss: 0.0660, Train Acc: 0.9438, Val Acc: 0.8791, Learning Rate: 0.00100
+Epoch 27, Loss: 0.6206, Train Acc: 0.9459, Val Acc: 0.8731, Learning Rate: 0.00100
+Epoch 28, Loss: 0.0042, Train Acc: 0.9486, Val Acc: 0.8780, Learning Rate: 0.00100
+Epoch 29, Loss: 0.1608, Train Acc: 0.9511, Val Acc: 0.8803, Learning Rate: 0.00100
+Epoch 30, Loss: 0.1127, Train Acc: 0.9501, Val Acc: 0.8790, Learning Rate: 0.00100
+Epoch 31, Loss: 0.3464, Train Acc: 0.9517, Val Acc: 0.8760, Learning Rate: 0.00100
+Epoch 32, Loss: 0.1734, Train Acc: 0.9558, Val Acc: 0.8796, Learning Rate: 0.00100
+Epoch 33, Loss: 0.0812, Train Acc: 0.9567, Val Acc: 0.8828, Learning Rate: 0.00100
+Epoch 34, Loss: 0.0006, Train Acc: 0.9566, Val Acc: 0.8785, Learning Rate: 0.00100
+Epoch 35, Loss: 0.0074, Train Acc: 0.9555, Val Acc: 0.8752, Learning Rate: 0.00100
+Epoch 36, Loss: 0.0258, Train Acc: 0.9550, Val Acc: 0.8803, Learning Rate: 0.00100
+Epoch 37, Loss: 0.0635, Train Acc: 0.9590, Val Acc: 0.8819, Learning Rate: 0.00100
+Epoch 38, Loss: 0.0097, Train Acc: 0.9565, Val Acc: 0.8802, Learning Rate: 0.00100
+Epoch 39, Loss: 0.3661, Train Acc: 0.9614, Val Acc: 0.8823, Learning Rate: 0.00100
+Epoch 40, Loss: 0.0897, Train Acc: 0.9636, Val Acc: 0.8818, Learning Rate: 0.00100
+Invalid input. Keeping previous learning rate.
+Epoch 41, Loss: 0.0108, Train Acc: 0.9629, Val Acc: 0.8790, Learning Rate: 0.00100
+Epoch 42, Loss: 0.5039, Train Acc: 0.9632, Val Acc: 0.8821, Learning Rate: 0.00100
+Epoch 43, Loss: 0.1202, Train Acc: 0.9667, Val Acc: 0.8824, Learning Rate: 0.00100
+Epoch 44, Loss: 0.0669, Train Acc: 0.9633, Val Acc: 0.8837, Learning Rate: 0.00100
+Epoch 45, Loss: 0.0203, Train Acc: 0.9650, Val Acc: 0.8841, Learning Rate: 0.00100
+Epoch 46, Loss: 0.0044, Train Acc: 0.9645, Val Acc: 0.8817, Learning Rate: 0.00100
+Epoch 47, Loss: 0.1275, Train Acc: 0.9678, Val Acc: 0.8845, Learning Rate: 0.00100
+Epoch 48, Loss: 0.1576, Train Acc: 0.9717, Val Acc: 0.8857, Learning Rate: 0.00100
+Epoch 49, Loss: 0.0252, Train Acc: 0.9670, Val Acc: 0.8803, Learning Rate: 0.00100
+Epoch 50, Loss: 0.0000, Train Acc: 0.9681, Val Acc: 0.8816, Learning Rate: 0.00100
+Epoch 51, Loss: 0.0125, Train Acc: 0.9648, Val Acc: 0.8788, Learning Rate: 0.00100
+Epoch 52, Loss: 0.0073, Train Acc: 0.9695, Val Acc: 0.8833, Learning Rate: 0.00100
+Epoch 53, Loss: 0.0000, Train Acc: 0.9650, Val Acc: 0.8800, Learning Rate: 0.00100
+Epoch 54, Loss: 0.2235, Train Acc: 0.9715, Val Acc: 0.8855, Learning Rate: 0.00100
+Epoch 55, Loss: 0.0002, Train Acc: 0.9692, Val Acc: 0.8840, Learning Rate: 0.00100
+Epoch 56, Loss: 0.0567, Train Acc: 0.9720, Val Acc: 0.8838, Learning Rate: 0.00100
+Epoch 57, Loss: 0.0138, Train Acc: 0.9728, Val Acc: 0.8841, Learning Rate: 0.00100
+Epoch 58, Loss: 0.0287, Train Acc: 0.9724, Val Acc: 0.8854, Learning Rate: 0.00100
+Epoch 59, Loss: 0.2057, Train Acc: 0.9708, Val Acc: 0.8818, Learning Rate: 0.00100
+Epoch 60, Loss: 0.0703, Train Acc: 0.9739, Val Acc: 0.8872, Learning Rate: 0.00100
+Epoch 61, Loss: 0.0004, Train Acc: 0.9888, Val Acc: 0.8956, Learning Rate: 0.00010
+Epoch 62, Loss: 0.1162, Train Acc: 0.9907, Val Acc: 0.8957, Learning Rate: 0.00010
+Epoch 63, Loss: 0.0012, Train Acc: 0.9911, Val Acc: 0.8965, Learning Rate: 0.00010
+Epoch 64, Loss: 0.0365, Train Acc: 0.9915, Val Acc: 0.8953, Learning Rate: 0.00010
+Epoch 65, Loss: 0.0102, Train Acc: 0.9915, Val Acc: 0.8955, Learning Rate: 0.00010
+Epoch 66, Loss: 0.0998, Train Acc: 0.9920, Val Acc: 0.8980, Learning Rate: 0.00010
+Epoch 67, Loss: 0.0015, Train Acc: 0.9922, Val Acc: 0.8963, Learning Rate: 0.00010
+Epoch 68, Loss: 0.0687, Train Acc: 0.9925, Val Acc: 0.8959, Learning Rate: 0.00010
+Epoch 69, Loss: 0.0065, Train Acc: 0.9925, Val Acc: 0.8952, Learning Rate: 0.00010
+Epoch 70, Loss: 0.0000, Train Acc: 0.9927, Val Acc: 0.8954, Learning Rate: 0.00010
+Epoch 71, Loss: 0.0000, Train Acc: 0.9927, Val Acc: 0.8948, Learning Rate: 0.00010
+Epoch 72, Loss: 0.0001, Train Acc: 0.9930, Val Acc: 0.8958, Learning Rate: 0.00010
+Epoch 73, Loss: 0.0000, Train Acc: 0.9933, Val Acc: 0.8944, Learning Rate: 0.00010
+Epoch 74, Loss: 0.0149, Train Acc: 0.9930, Val Acc: 0.8956, Learning Rate: 0.00010
+Epoch 75, Loss: 0.0044, Train Acc: 0.9933, Val Acc: 0.8952, Learning Rate: 0.00010
+Epoch 76, Loss: 0.0000, Train Acc: 0.9932, Val Acc: 0.8954, Learning Rate: 0.00010
+Epoch 77, Loss: 0.0000, Train Acc: 0.9934, Val Acc: 0.8944, Learning Rate: 0.00010
+Epoch 78, Loss: 0.0020, Train Acc: 0.9933, Val Acc: 0.8947, Learning Rate: 0.00010
+Epoch 79, Loss: 0.0002, Train Acc: 0.9939, Val Acc: 0.8945, Learning Rate: 0.00010
+Epoch 80, Loss: 0.0000, Train Acc: 0.9938, Val Acc: 0.8957, Learning Rate: 0.00010
+Invalid input. Keeping previous learning rate.
+Epoch 81, Loss: 0.0012, Train Acc: 0.9937, Val Acc: 0.8951, Learning Rate: 0.00010
+Epoch 82, Loss: 0.0027, Train Acc: 0.9940, Val Acc: 0.8946, Learning Rate: 0.00010
+Epoch 83, Loss: 0.0002, Train Acc: 0.9941, Val Acc: 0.8943, Learning Rate: 0.00010
+Epoch 84, Loss: 0.0052, Train Acc: 0.9940, Val Acc: 0.8942, Learning Rate: 0.00010
+Epoch 85, Loss: 0.0001, Train Acc: 0.9942, Val Acc: 0.8943, Learning Rate: 0.00010
+Epoch 86, Loss: 0.0004, Train Acc: 0.9944, Val Acc: 0.8942, Learning Rate: 0.00010
+Epoch 87, Loss: 0.0045, Train Acc: 0.9943, Val Acc: 0.8944, Learning Rate: 0.00010
+Epoch 88, Loss: 0.0021, Train Acc: 0.9942, Val Acc: 0.8938, Learning Rate: 0.00010
+Epoch 89, Loss: 0.0000, Train Acc: 0.9946, Val Acc: 0.8941, Learning Rate: 0.00010
+Epoch 90, Loss: 0.0012, Train Acc: 0.9945, Val Acc: 0.8936, Learning Rate: 0.00010
+Epoch 91, Loss: 0.0005, Train Acc: 0.9947, Val Acc: 0.8936, Learning Rate: 0.00010
+Epoch 92, Loss: 0.0178, Train Acc: 0.9946, Val Acc: 0.8946, Learning Rate: 0.00010
+Epoch 93, Loss: 0.0007, Train Acc: 0.9946, Val Acc: 0.8942, Learning Rate: 0.00010
+Epoch 94, Loss: 0.0032, Train Acc: 0.9947, Val Acc: 0.8941, Learning Rate: 0.00010
+Epoch 95, Loss: 0.0152, Train Acc: 0.9944, Val Acc: 0.8947, Learning Rate: 0.00010
+Epoch 96, Loss: 0.0000, Train Acc: 0.9948, Val Acc: 0.8932, Learning Rate: 0.00010
+Epoch 97, Loss: 0.0000, Train Acc: 0.9949, Val Acc: 0.8937, Learning Rate: 0.00010
+Epoch 98, Loss: 0.0000, Train Acc: 0.9948, Val Acc: 0.8939, Learning Rate: 0.00010
+Epoch 99, Loss: 0.0005, Train Acc: 0.9949, Val Acc: 0.8946, Learning Rate: 0.00010
+Epoch 100, Loss: 0.0000, Train Acc: 0.9949, Val Acc: 0.8928, Learning Rate: 0.00010
+Epoch 101, Loss: 0.0000, Train Acc: 0.9953, Val Acc: 0.8937, Learning Rate: 0.00001
+Epoch 102, Loss: 0.0002, Train Acc: 0.9953, Val Acc: 0.8933, Learning Rate: 0.00001
+Epoch 103, Loss: 0.0010, Train Acc: 0.9953, Val Acc: 0.8941, Learning Rate: 0.00001
+Epoch 104, Loss: 0.0086, Train Acc: 0.9953, Val Acc: 0.8941, Learning Rate: 0.00001
+Epoch 105, Loss: 0.0065, Train Acc: 0.9953, Val Acc: 0.8940, Learning Rate: 0.00001
+Epoch 106, Loss: 0.0007, Train Acc: 0.9953, Val Acc: 0.8944, Learning Rate: 0.00001
+Epoch 107, Loss: 0.1458, Train Acc: 0.9953, Val Acc: 0.8939, Learning Rate: 0.00001
+Epoch 108, Loss: 0.0001, Train Acc: 0.9954, Val Acc: 0.8938, Learning Rate: 0.00001
+Epoch 109, Loss: 0.0001, Train Acc: 0.9953, Val Acc: 0.8938, Learning Rate: 0.00001
+Epoch 110, Loss: 0.0000, Train Acc: 0.9954, Val Acc: 0.8939, Learning Rate: 0.00001
+Epoch 111, Loss: 0.0012, Train Acc: 0.9954, Val Acc: 0.8938, Learning Rate: 0.00001
+Epoch 112, Loss: 0.0882, Train Acc: 0.9954, Val Acc: 0.8936, Learning Rate: 0.00001
+Epoch 113, Loss: 0.0003, Train Acc: 0.9954, Val Acc: 0.8937, Learning Rate: 0.00001
+Epoch 114, Loss: 0.0013, Train Acc: 0.9954, Val Acc: 0.8935, Learning Rate: 0.00001
+Epoch 115, Loss: 0.0001, Train Acc: 0.9954, Val Acc: 0.8933, Learning Rate: 0.00001
+Epoch 116, Loss: 0.0709, Train Acc: 0.9954, Val Acc: 0.8935, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0003, Train Acc: 0.9954, Val Acc: 0.8932, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0107, Train Acc: 0.9954, Val Acc: 0.8933, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0000, Train Acc: 0.9954, Val Acc: 0.8934, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0001, Train Acc: 0.9955, Val Acc: 0.8937, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0005, Train Acc: 0.9954, Val Acc: 0.8933, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0000, Train Acc: 0.9954, Val Acc: 0.8933, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0001, Train Acc: 0.9954, Val Acc: 0.8935, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0000, Train Acc: 0.9955, Val Acc: 0.8934, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
+Epoch 116, Loss: 0.0000, Train Acc: 0.9954, Val Acc: 0.8934, Learning Rate: 0.00001
+Early stopping at epoch 116. Best Val Acc: 0.8980
