@@ -1,0 +1,31 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{}%
+\contentsline {section}{\numberline {2}Aims}{3}{}%
+\contentsline {section}{\numberline {3}Data}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Data split}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Data Imbalance}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Data Standardisation}{4}{}%
+\contentsline {section}{\numberline {4}Principle Component Analysis}{5}{}%
+\contentsline {section}{\numberline {5}K-NN Classifier}{7}{}%
+\contentsline {subsection}{\numberline {5.1}Accuracy of K-NN Classifier}{8}{}%
+\contentsline {subsection}{\numberline {5.2}K-Fold Cross-validation}{9}{}%
+\contentsline {subsection}{\numberline {5.3}ROC Curve}{10}{}%
+\contentsline {subsection}{\numberline {5.4}Confusion Matrix}{11}{}%
+\contentsline {subsection}{\numberline {5.5}Precision, Recall, and F1 score}{12}{}%
+\contentsline {section}{\numberline {6}Random Forest Classifier}{13}{}%
+\contentsline {subsection}{\numberline {6.1}Accuracy of Random Forest Classifier}{13}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Computational time after dimensionality reduction}{14}{}%
+\contentsline {subsection}{\numberline {6.2}K-Fold Cross-validation}{15}{}%
+\contentsline {subsection}{\numberline {6.3}ROC curve}{16}{}%
+\contentsline {subsection}{\numberline {6.4}Confusion matrix}{17}{}%
+\contentsline {subsection}{\numberline {6.5}Precision, Recall, and F1 score}{17}{}%
+\contentsline {section}{\numberline {7}Deep Neural Networks}{18}{}%
+\contentsline {subsection}{\numberline {7.1}Training}{18}{}%
+\contentsline {subsubsection}{\numberline {7.1.1}Effect of hidden layer sizes}{19}{}%
+\contentsline {subsubsection}{\numberline {7.1.2}Training 192-192 DNN model}{19}{}%
+\contentsline {subsection}{\numberline {7.2}ROC Curve}{20}{}%
+\contentsline {subsection}{\numberline {7.3}Confusion Matrix}{21}{}%
+\contentsline {subsection}{\numberline {7.4}Precision, Recall, and F1 score}{21}{}%
+\contentsline {section}{\numberline {8}Conclusion}{22}{}%
+\contentsline {section}{\numberline {9}Appendix}{23}{}%
+\contentsline {subsection}{\numberline {9.1}All Project Code}{23}{}%
+\contentsfinish 
